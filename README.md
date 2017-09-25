@@ -30,3 +30,8 @@ https://en.wikipedia.org/wiki/Crazy_Eights
 * Use for both the draw from and discard
 * Remove card from pile
 * Add a card to the pile
+
+### Player
+* Will have a hand
+* Select the card they want to play
+* Draw card if there is no card to play
