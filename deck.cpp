@@ -46,7 +46,7 @@ combine(const Deck& d1, const Deck& d2)
 void 
 shuffle(Deck& deck)
 {
-  prng.seed(rng);
+  prng.seed(rng());
 
   std::shuffle(deck.begin(), deck.end(), prng);
 }
