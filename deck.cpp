@@ -20,9 +20,10 @@ make_standard_deck()
   Deck d;
   for (int s = Spade; s <= Heart; s++){
     for (int r = Ace; r <= King; r++){
-      Card c(static_cast<Rank>(r),static_cast<Suit>(s)) ;
-    
+
+      Card c(static_cast<Rank>(r),static_cast<Suit>(s)) ; 
       d.push_back(c);
+
       }
   }
 
