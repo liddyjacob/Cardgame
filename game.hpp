@@ -7,6 +7,9 @@
 // - Deck
 // - Player
 // - Pile?
+#include "deck.hpp"
+#include "player.hpp"
+#include "pile.hpp"
 
 class CrazyEights {
 private:
@@ -20,8 +23,10 @@ private:
     Deck d;
 
     // Piles (draw/discard)
-    Pile draw;
-    Pile discard;
+    Deck draw; // Could be represented by a queue
+    Deck discard; // Could be represented by a stack
+
+    bool players_have_cards();
     
 public:
     CrazyEights() = default;
